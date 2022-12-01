@@ -1,0 +1,52 @@
+import React from 'react'
+
+function ChangePassModel() {
+    return (
+        <div>
+            <div className='row'>
+                <div className='col-lg-12 col-md-12 col-sm-12 col-xl-12'>
+                    {/* Modal  */}
+                    <div className="modal fade" id="exampleModalCenter1" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                        <div className="modal-dialog modal-dialog-centered" role="document">
+                            <div className="modal-content">
+                                <div className="modal-header">
+                                    <h5 className="modal-title" id="exampleModalLongTitle">Change Password</h5>
+                                    <button type="button" className="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <form>
+                                        <div class="form-row">
+                                            <div class="form-group col-md-12">
+                                                <label for="inputName">Enter your old password</label>
+                                                <input type="password" class="form-control" id="inputemail" />
+                                            </div>
+                                            <div class="form-group col-md-12">
+                                                <label for="inputName">Enter your new password</label>
+                                                <input type="password" class="form-control" id="inputemail" />
+                                            </div>
+                                            <div class="form-group col-md-12">
+                                                <label for="inputName">Confirm your new password</label>
+                                                <input type="password" class="form-control" id="inputemail" />
+                                            </div>
+                                            <div class="form-group col-md-12 mb-5">
+                                                <label for="inputName">Enter your Google Authenticator code</label>
+                                                <input type="password" class="form-control" id="inputemail" />
+                                            </div>
+                                            <div class="form-group col-md-12 mb-0">
+                                                <button type='button' className='forgot-btn'>Submit</button>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    )
+}
+
+export default ChangePassModel
